@@ -21,7 +21,7 @@ namespace BackendAE.Models
         [MaxLength(13)]
         public string UsuCui { get; set; }
 
-        [MaxLength(13)]
+        [MaxLength(9)]
         public string? UsuNit { get; set; }
 
         [Required]
